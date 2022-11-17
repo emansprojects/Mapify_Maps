@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnHome"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/btnSavedPlaces"
+            android:icon="@drawable/ic_location"
+            android:iconTint="@color/mapify_green"
+            android:title="Saved Places" />
+
+        <item
+            android:id="@+id/btnWeather"
+            android:icon="@drawable/ic_weather"
+            android:iconTint="@color/mapify_green"
+            android:title="Weather Forecast" />
+
+        <item
+            android:id="@+id/btnTravelProgress"
+            android:icon="@drawable/ic_progress"
+            android:iconTint="@color/mapify_green"
+            android:title="Travel Progress" />
+
+        <item
+            android:id="@+id/btnSetting"
+            android:icon="@drawable/ic_setting"
+            android:iconTint="@color/mapify_green"
+            android:title="Settings" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_nav_graph"
+    app:startDestination="@id/btnHome">
+
+    <fragment
+        android:id="@+id/btnHome"
+        android:name="com.vc.mapify.Fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/btnSetting"
+        android:name="com.vc.mapify.Fragments.SettingsFragment"
+        android:label="Saved Places"
+        tools:layout="@layout/fragment_settings">
+
+    </fragment>
+    <fragment
+        android:id="@+id/btnSavedPlaces"
+        android:name="com.vc.mapify.Fragments.SavedPlacesFragment"
+        android:label="fragment_saved_places"
+        tools:layout="@layout/fragment_saved_places" />
+    <activity
+        android:id="@+id/btnWeather"
+        android:name="com.vc.mapify.Activity.WeatherActivity"
+        android:label="activity_weather"
+        tools:layout="@layout/activity_weather" />
+    <fragment
+        android:id="@+id/btnTravelProgress"
+        android:name="com.vc.mapify.Fragments.ProgressFragment"
+        android:label="fragment_progress"
+        tools:layout="@layout/fragment_progress" />
+
+
+</navigation>
